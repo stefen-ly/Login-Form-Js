@@ -20,11 +20,11 @@
   <body
     class="min-h-screen p-8 md:p-[100px] flex flex-col items-center justify-center"
   >
-    <!-- Glass Container -->
+    <!-- Container -->
     <div
       class="backdrop-blur-lg bg-white/20 border border-white/30 shadow-xl rounded-xl flex flex-col md:flex-row w-full max-w-4xl overflow-hidden"
     >
-      <!-- Left Side: Logo -->
+      <!-- Logo -->
       <div
         class="bg-blue-600/60 h-[250px] md:h-auto md:w-1/2 w-full flex items-center justify-center"
       >
@@ -35,11 +35,11 @@
         />
       </div>
 
-      <!-- Right Side: Login Form -->
+      <!-- Right Side -->
       <div class="md:w-1/2 w-full p-8">
         <h2 class="text-3xl font-bold text-white text-center mb-6">Login</h2>
 
-        <!-- Login Form -->
+        <!-- Login side -->
         <form id="loginForm">
           <div class="mb-4">
             <label for="email" class="block text-white mb-2">Email</label>
@@ -62,7 +62,6 @@
             />
           </div>
 
-          <!-- Remember Me and Forgot Password -->
           <div class="flex items-center justify-between mb-6 text-white text-sm">
             <label class="inline-flex items-center">
               <input type="checkbox" class="form-checkbox text-blue-400" />
@@ -71,7 +70,7 @@
             <a href="#" class="hover:underline text-blue-200">Forgot Password?</a>
           </div>
 
-          <!-- Submit Button -->
+          <!-- Submit  -->
           <button
             type="submit"
             class="w-full bg-blue-500/80 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition"
@@ -80,17 +79,17 @@
           </button>
         </form>
 
-        <!-- Error Message -->
+        <!-- Error  -->
         <p id="errorMsg" class="text-red-200 text-sm mt-4 hidden">
           Please fill in both fields.
         </p>
 
-        <!-- OR separator -->
+        <!-- Or -->
         <div class="text-center my-6">
           <p class="text-white text-sm tracking-wide">or sign in with</p>
         </div>
 
-        <!-- Social Login Buttons -->
+        <!-- Login Buttons -->
         <div class="flex justify-center space-x-4 mt-4">
           <button
             class="w-10 h-10 flex items-center justify-center bg-[#ea4335] border border-[#ea4335] rounded-full hover:bg-white/20 transition"
@@ -109,7 +108,7 @@
           </button>
         </div>
 
-        <!-- Sign Up Link -->
+        <!-- Signup -->
         <p class="text-sm text-center text-white mt-6">
           Not a member?
           <a href="#" class="text-blue-300 hover:underline">Sign Up</a>
@@ -117,7 +116,7 @@
       </div>
     </div>
 
-    <!-- ✅ Success Message OUTSIDE the container -->
+    <!-- Message  -->
     <div
       id="successMsg"
       class="hidden mt-6 w-full max-w-4xl p-4 border border-green-400 bg-white/20 backdrop-blur-md text-green-100 rounded-lg shadow text-center"
